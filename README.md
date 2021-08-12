@@ -1,21 +1,22 @@
 # React Multi Select Component
 
+This library is forked from @khanacademy/react-multi-select
 React Multi Select Component
 
 ![Animated GIF demo](react-multi-select.gif)
 
-[Storybook Demo](https://khan.github.io/react-multi-select/)
+[Storybook Demo](https://github.com/mukulbhardwaj1313/react-multi-select/)
 
 ## Installation:
-`npm install --save @khanacademy/react-multi-select`
-`yarn add @khanacademy/react-multi-select`
+`npm install --save mukulbhardwaj1313/react-multi-select`
+`yarn add mukulbhardwaj1313/react-multi-select`
 
 ## Usage:
 See the examples in `/src/stories/index.js` for how to use the component, but here is a minimum required setups:
 
 ```
 import React from 'react';
-import MultiSelect from "@khanacademy/react-multi-select";
+import MultiSelect from "mukulbhardwaj1313/react-multi-select";
 
 const options = [
   {label: "One", value: 1},
