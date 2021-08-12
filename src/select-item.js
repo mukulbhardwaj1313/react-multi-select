@@ -39,7 +39,7 @@ class DefaultItemRenderer extends Component<DefaultItemRendererProps> {
                 disabled={disabled}
             />
             <span style={style}>
-                {option.label}
+                {`option.label`}
             </span>
         </span>;
     }
